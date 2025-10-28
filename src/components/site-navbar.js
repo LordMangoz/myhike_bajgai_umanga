@@ -16,11 +16,11 @@ class SiteNavbar extends HTMLElement {
     renderNavbar() {
         this.innerHTML = `
             <!-- Navbar: single source of truth -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="/images/image.jpg" height="36">
-                        ElmoHikes
+                        <img src="/images/drink2.png" height="36">
+                        The coffee
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
